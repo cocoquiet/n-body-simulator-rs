@@ -1,13 +1,13 @@
 struct Body {
-    m: f64,
-    px: f64,
-    py: f64,
-    vx: f64,
-    vy: f64,
+    m: i64,
+    px: i64,
+    py: i64,
+    vx: i64,
+    vy: i64,
 }
 
 impl Body {
-    fn new(m: f64, px: f64, py: f64, vx: f64, vy: f64) -> Self {
+    fn new(m: i64, px: i64, py: i64, vx: i64, vy: i64) -> Self {
         Body {
             m: m,
             px: px,
